@@ -1,7 +1,85 @@
+html {
+    background-color:black;
+    height: 100%;
+}
+
 main {
     display: inline-flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main_container, .login_container {
+    background-color: white;
+    margin: 2.5%;
+    border: 2px solid black;
+    padding: 2.5%;
+    min-height: 95%;
 }
 
 .main_container {
-    margin: 5%;
+    width: 70%;
+}
+
+.greeting {
+    font-size: 60px;
+    border-bottom: 4px solid black;
+    padding-bottom: 5px;
+    margin:0;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main_image {
+    padding-top: 10px;
+    width: 75%;
+}
+
+.login_text {
+    font-size: 25px;
+}
+
+.login_container h1 {
+    text-decoration: underline;
+}
+
+.login_input_container, .create_input_container, .guest_container {
+    border-bottom: 2px solid black;
+}
+
+.login_titles, .create_titles, .guest_titles {
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.login_continue, .create_continue, .guest_continue {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.guest_link {
+    width: max-content;
+}
+
+.warning {
+    font-weight: bolder;
+    font-size: 20px;
+    color: darkred;
+}
+
+.warning_text {
+    font-weight: bold;
+    font-size: 15px;
 }

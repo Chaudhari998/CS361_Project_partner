@@ -13,43 +13,47 @@
     <main>
       <div class = "main_container">
         <h1 class = "greeting">Welcome to the Oregon Weather Report!</h1>
-        <p class = "login_text">Please Log In, Create an Account, or Continue as Guest</p>
+        <div class = "main_content">
+          <p class = "login_text">Please Log In, Create an Account, or Continue as Guest</p>
+          <img class = "main_image" src="photos/Central_Oregon_landscape.jpg">
+        </div>
       </div>
-      
+
       <div class = "login_container">
+
         <div class = "login_input_container">
           <h1 class = "login">Log In:</h1>
           <label for = "user_input" class = "login_titles">User</label>
-          <input type = "text" class = "login_user" id = "user_input"><br>
+          <input type = "text" class = "login_user" id = "user_input"><br><br>
           <label for = "pass_input" class = "login_titles">Password</label>
-          <input type = "text" class = "login_pass" id = "pass_input"><br>
-          <input type = "button" class = "login_continue" id = "login_continue"><br>
+          <input type = "text" class = "login_pass" id = "pass_input"><br><br>
+          <button type = "button" class = "login_continue" id = "login_continue">Go</button>
         </div>
 
         <div class = "create_input_container">
           <h1 class = "create">Create Account:</h1>
           <label for = "user_input" class = "create_titles">User</label>
-          <input type = "text" class = "create_user" id = "user_input"><br>
+          <input type = "text" class = "create_user" id = "user_input"><br><br>
           <label for = "pass_input" class = "create_titles">Password</label>
-          <input type = "text" class = "create_pass" id = "pass_input"><br>
+          <input type = "text" class = "create_pass" id = "pass_input"><br><br>
           <label for = "pass_input" class = "create_titles">Enter Password Again</label>
-          <input type = "text" class = "create_pass" id = "pass_input"><br>
-          <input type = "button" class = "create_continue" id = "create_continue">
+          <input type = "text" class = "create_pass" id = "pass_input"><br><br>
+          <button type = "button" class = "create_continue" id = "create_continue">Go</button>
         </div>
 
         <div class = "guest_container">
           <h1 class = "guest">Continue as Guest</h1>
-          <label for = "guest_input" class = "guest_title">Continue</label>
-          <input type = "button" class = "guest_continue" id = "guest_input">
+          <label for = "guest_input" class = "guest_title">Continue</label><br><br>
+          <a class = "guest_link" href = "guest/guest.html">
+            <button type = "button" class = "guest_continue" id = "guest_input">Go</button>
+          </a>
           <p class = "warning">WARNING!</p>
           <p class = "warning_text">If you continue as guest you will not be able to set notifications, set favorites, and your data will not be saved</p>
         </div>
-
+        
       </div>
 
     </main>
-
 	<script src="index.js"></script>
-
   </body>
 </html>
