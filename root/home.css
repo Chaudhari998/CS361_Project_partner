@@ -1,3 +1,7 @@
 main {
     display: inline-flex;
 }
+
+.main_container {
+    margin: 5%;
+}
