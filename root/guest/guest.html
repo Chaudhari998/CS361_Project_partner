@@ -11,13 +11,44 @@
 
   <body>
     <main>
-        <div class = "notifications">
+
+        <div class = "menu_container">
+            <h1 class = "menu_title">Menu</h1>
+            <div class = "my_notif_container">
+                <p class = "my_notif_title">-My Notifications</p>
+                <p class = "my_notif_text">Unfortunately, you do not have access to this as a Guest, please log in or create an account</p>
+            </div>
+      
+            <div class = "my_fav_container">
+                <p class = "my_fav_title">-My Favorites</p>
+                <p class = "my_fav_text">Unfortunately, you do not have access to this as a Guest, please log in or create an account</p>
+            </div>
+            
+            <br>
+
+            <div class = "search_loc_container">
+                <label for = "location_input" class = "search_loc_title">-Search by Location</label>
+                <button type = "button" class = "search_loc_button" id = "location_input">Go</button>
+            </div>
+
+            <br>
+            <br>
+
+            <div class = "search_zip_container">
+                <label for = "zip_input" class = "search_zip_title">-Search by Zipcode</label>
+                <button type = "button" class = "search_zip_button" id = "zip_input">Go</button>
+            </div>
+
+        </div>
+
+        <div class = "notification_container">
             <h1 class = "notif_title">Notifications</h1>
             <div class = "main_content">
-              <p class = "notif_text">Unfortunately, as a Guest you do not have access to notifications</p>
+              <p class = "notif_text">Unfortunately, as a Guest you do not have access to notifications. Please log in or create an account</p>
               <img class = "main_image" src="notification_icon.webp">
             </div>
-          </div>
+        </div>
+
     </main>
 
 	<script src="index.js"></script>
