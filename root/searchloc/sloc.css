@@ -12,6 +12,17 @@ main {
     width: 95%;
 }
 
+.warning {
+    font-weight: bolder;
+    font-size: 20px;
+    color: darkred;
+}
+
+.warning_text {
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .output_title {
     border-bottom: solid black 4px;
     padding-bottom: 5px;
