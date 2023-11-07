@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search By Location</title>
+    <link rel="stylesheet" href="sloc.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <main>
+      <h1 class = "title">Search by Location</h1>
+
+      <div class = "select_location">
+          <label for = "location_dropdown" class = "location_title">Select a City in Oregon</label>
+          <select id = "location_dropdown" class = "location_dropdown">
+            <option value = "" disabled selected hidden>Select a City</option>
+            <option>Beaverton</option>
+            <option>Bend</option>
+            <option>Corvallis</option>
+            <option>Eugene</option>
+            <option>Hillsboro</option>
+            <option>Portland</option>
+            <option>Salem</option>
+          </select>
+      </div>
+
+      <div class = "select_weather">
+        <p class = "weather_title">Select Info to Output</p>
+
+        <label for = "rain_box" class = "rain_title">Percipitation</label>
+        <input type = "checkbox" id = "rain_box" class = "rain_box">
+
+        <label for = "temp_box" class = "temp_title">Temperature</label>
+        <input type = "checkbox" id = "temp_box" class = "temp_box">
+
+        <label for = "wind_box" class = "wind_title">Wind Speed</label>
+        <input type = "checkbox" id = "wind_box" class = "wind_box">
+
+        <label for = "danger_box" class = "danger_title">Dangerous Conditions</label>
+        <input type = "checkbox" id = "danger_box" class = "danger_box">
+
+        <label for = "future_box" class = "future_title">Future Outlook</label>
+        <input type = "checkbox" id = "future_box" class = "future_box">
+      </div>
+
+      <div class = "search_button_container">
+        <button class = "search_button">Search</button>
+      </div>
+
+      <div class = "output_container">
+        <h1 class = "output_title">Output</h1>
+      </div>
+
+    </main>
+
+	<script src="index.js"></script>
+
+  </body>
+</html>
