@@ -33,9 +33,20 @@ main {
     align-content: center;
 }
 
-button {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+.search_loc_button, .search_zip_button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.back_button_container {
+    padding-top: 10px;
+}
+
+.back_button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .notification_container {

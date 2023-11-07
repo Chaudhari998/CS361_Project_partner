@@ -26,3 +26,13 @@ main {
     padding-left: 8px;
     padding-right: 8px;
 }
+
+.back_button_container {
+    padding-top: 10px;
+}
+
+.back_button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
